@@ -6,26 +6,32 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/*Nick: Bender CarDoO*/
+/*Email: smartttik@gmail.com*/
+/*Telegram: @phpcodes*/
 body
 {
-    display: grid;
     background-color: #1abc9c;
-    margin-top: 10%;
-    place-items: center;
-    /* height: 100%; */
-    
+    overflow: hidden;
+}
+.wrapper
+{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 170px auto;
 }
 .container
 {
-    width: 380px;
+    width: 100%;
     background-color: #fff;
     border-radius: 5px;
+    padding-bottom: 50px;
 }
 .container .title
 {
-    line-height: 80px;
+    line-height: 90px;
     background-color: #16a085;
-    padding-left: 20px;
+    text-align: center;
     border-radius: 5px 5px 0 0;
     color: #fff;
     font-size: 25px;
@@ -38,7 +44,6 @@ body
 .container form .row
 {
     height: 45px;
-    
     margin-bottom: 15px;
     position: relative;
 }
@@ -51,6 +56,12 @@ body
     border: 1px solid lightgray;
     border-radius: 5px;
     font-size: 16px;
+    transition: 0.5s all ease;
+}
+.container form .row input:focus
+{
+    border-color: #12876f;
+    box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
 }
 .container form .row i
 {
@@ -65,7 +76,21 @@ body
     color: #fff;
     font-size: 18px;
     border-radius: 5px 0 0 5px;
-    
+}
+.container form .pass
+{
+    margin: -8px 0 15px 0;
+}
+.container form .pass a
+{
+    text-decoration: none;
+    font-size: 17px;
+    color: #16a085;
+    font-weight: bold;
+}
+.container form .pass a:hover
+{
+    text-decoration: underline;
 }
 .container form .button input
 {
@@ -74,5 +99,28 @@ body
     background-color: #16a085;
     border: 1px solid #16a085;
     cursor: pointer;
-
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s all ease;
+}
+.container form .button input:hover
+{
+    background-color: #12876f;
+}
+.container form .signup_link
+{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.container form .signup_link a
+{
+    text-decoration: none;
+    font-size: 17px;
+    color: #16a085;
+    padding: 5px;
+}
+.container form .signup_link a:hover
+{
+    text-decoration: underline;
 }
