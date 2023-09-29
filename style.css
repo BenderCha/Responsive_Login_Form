@@ -124,3 +124,63 @@ body
 {
     text-decoration: underline;
 }
+.danger
+{
+    color: red;
+}
+.container form .row .login_name
+{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 0.5s all ease;
+    display: flex;
+    align-items: center;
+}
+.container form .row .login_name:focus
+{
+    border-color: #12876f;
+    box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+}
+.buttons a
+{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding-left: 0px;
+    background-color: #16a085;
+    border: 1px solid #16a085;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s all ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.rowpass
+{
+    display: flex;
+    align-items: center;
+}
+.rowpass input
+{
+    width: 100%;
+    padding: 10px 45px;
+    position: relative;
+    
+}
+
+.rowpass img
+{
+    position: absolute;
+    top: 15%;
+    right: 1%;
+    width: 35px;
+    cursor: pointer;
+}
