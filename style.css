@@ -146,41 +146,60 @@ body
     border-color: #12876f;
     box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
 }
-.buttons a
+.buttons
 {
     width: 100%;
-    height: 100%;
+    background-color: #12876f;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s all ease;
+    border: none;
+    border-radius: 5px;
+}
+.buttons a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.d-flex
+{
+    display: flex;
+}
+.d-flex img
+{
     color: #fff;
     padding-left: 0px;
-    background-color: #16a085;
-    border: 1px solid #16a085;
+    border-radius: 5px;
+    border: 1px solid #ccc;
     cursor: pointer;
     font-size: 18px;
     font-weight: 500;
     transition: 0.5s all ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
 }
-.rowpass
+.text-center
 {
-    display: flex;
-    align-items: center;
+    text-align: center !important;
 }
-.rowpass input
+.m
 {
-    width: 100%;
-    padding: 10px 45px;
-    position: relative;
+    padding-top: 120px !important;
+}
+.alert-danger
+{
+    margin-top: 15px !important;
+    color: #dc3545;
+}
+.pb-50
+{
     
+    padding-bottom: 50px;
 }
-
-.rowpass img
+.js-flex
 {
-    position: absolute;
-    top: 15%;
-    right: 1%;
-    width: 35px;
-    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
